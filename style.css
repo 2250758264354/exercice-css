@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing : border-box;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 2rem;
+    font-family: 'DM sans', sans-serif;
+    font-weight: 400;
+}
+.card-parent{
+    background-color: hsl(33, 100%, 98%);
+    ;
+    border-radius: 0.7rem;
+    padding: 2rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.card-header{
+    height: 100px;
+    width: 400px;
+    border-bottom: 8px;
+    margin-top: 50px;
+    border-radius: 0.7rem;
+    border-top-left-radius : 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: hsl(10, 79%, 65%);
+    display: flex;
+    justify-content: space-between;
+}
+.card-body{
+    border-radius: 0.7rem;
+    height: 500px;
+    width: 400px;
+    padding: 2rem;
+    border-top-left-radius : 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background-color: white;
+    margin-top: 20px;
+}
+.card-title{
+    margin-top: 10px;
+    color: hsl(25, 47%, 15%);
+    margin-bottom: 100px;
+}
+.card-body-body{
+    margin-top: -10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    height: 100px;
+}
+.box1{
+    
+    height: 37px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.3rem;
+}
+.jour1{
+    margin-top: 145px;
+}
+.box2{
+    
+    height: 100px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.3rem;
+}
+.jour2{
+    margin-top: 145px;
+}
+.box3{
+    
+    height: 140px;
+    width: 40px;
+    background-color: hsl(186, 34%, 60%);
+    border-radius: 0.3rem;
+}
+.jour3{
+    margin-top: 145px;
+}
+.box4{
+    
+    height: 100px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.3rem;
+}
+.jour4{
+    margin-top: 145px;
+}
+.box5{
+   
+    height: 90px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.3rem;
+}
+.jour5{
+    margin-top: 145px;
+}
+.box6{
+    
+    height: 130px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.3rem;
+}
+.jour6{
+    margin-top: 145px;
+}
+.box7{
+    
+    height: 95px;
+    width: 40px;
+    background-color: hsl(10, 79%, 65%);
+    border-radius: 0.3rem;
+}
+.jour7{
+    margin-top: 145px;
+}
+.card-nothing{
+    height: 2px;
+    width: 100%;
+    background-color: darkgray;
+    margin-top: 90px;
+}
+.card-bf-right{
+    text-align: right;
+}
+.header-txt{
+    color: white;
+    padding: 0.7rem;
+}
+.logo{
+    max-width: 72px;
+    max-height: 48px;
+}
